@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo: 'Evaluación de la atención en salud',
+    descripcionCurso:
+      'Este componente formativo describe la importancia de evaluar la satisfacción del usuario en los servicios de salud, dando respuesta de manera oportuna y asertiva a todas las peticiones, sugerencias, quejas y reclamos. <br> <br>  En la primera línea de atención al usuario se van a encontrar los diferentes tipos de clientes, quienes requieren con urgencia una respuesta clara, veraz y humanizada a las diferentes necesidades que los rodean en la atención en salud.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -24,34 +15,64 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Satisfacción del usuario',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Métodos proactivos',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Métodos reactivos',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Mecanismos establecidos por la Constitución para garantizar el cumplimiento de los derechos fundamentales en salud',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistema de Información y Atención al Usuario – SIAU',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ley de participación ciudadana',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Sujetos de especial protección',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Política de atención en salud',
         desarrolloContenidos: true,
       },
     ],
@@ -84,11 +105,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -100,34 +116,128 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Contraloría delegada para la participación ciudadana. (2018). Plan Nacional de Formación, Control Social a la Gestión Pública. Control social al derecho a la salud fase de focalización. Contraloría General de la República. ',
+      link:
+        'https://www.contraloria.gov.co/documents/621871/1131800/M%C3%B3dulo+7+Salud.pdf/ab0863a8-3ab4-4698-b6ad-4f91ab97da59?version=1.0',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Corte Constitucional. Sentencia T-282/08, Sala Quinta de Revisión (MP. Mauricio González Cuervo; 14 de marzo de 2008). ',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2008/T-282-08.htm',
+    },
+    {
+      referencia:
+        'Resolución 1403 de 2007. [Ministerio de la Protección Social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos, y se dictan otras disposiciones.  Mayo 14 de 2007. ',
+      link:
+        'https://www.invima.gov.co/documents/20143/453029/Resoluci%C3%B3n+1403+de+2007.pdf/6b2e1ce1-bb34-e17f-03ef-34e35c126949',
+    },
+    {
+      referencia:
+        'Supersalud. (2003). El Control que defiende los derechos de los usuarios. Veeduría ciudadana en el sistema general de seguridad social en salud. ',
+      link:
+        'https://docs.supersalud.gov.co/PortalWeb/ProteccionUsuario/OtrosDocumentosProteccionUsuario/cartilla%20veeduria%20ciudadana.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Asertividad',
+      significado:
+        'Habilidad de expresar nuestros deseos de una manera amable, franca, abierta, directa y adecuada, logrando decir lo que queremos, sin atentar contra los demás.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Bioética',
+      significado:
+        'Rama de la ética dedicada a promover los principios para la conducta más apropiada del ser humano con respecto a la vida, tanto de la vida humana como del resto de seres vivos, así como al ambiente en el que pueden darse condiciones aceptables para la misma.',
+    },
+    {
+      termino: 'Calidad',
+      significado:
+        'Conjunto de características inherentes a un objeto, producto, servicio, proceso, persona, organización, sistema o recurso, que cumplen con los requisitos.',
+    },
+    {
+      termino: 'Empatía',
+      significado:
+        'Capacidad que tiene una persona de percibir los sentimientos, pensamientos y emociones de los demás, basada en el reconocimiento del otro como similar. ',
+    },
+    {
+      termino: 'Humanización',
+      significado: 'Hacer a alguien más humano, familiar y afable.',
+    },
+    {
+      termino: 'PQRS',
+      significado: 'Peticiones, quejas, reclamos, solicitudes.',
+    },
+    {
+      termino: 'Proactivo',
+      significado:
+        'Que tiene iniciativa y capacidad para anticiparse a problemas o necesidades futuras.',
+    },
+    {
+      termino: 'Reactivo',
+      significado: 'Adjetivo que se refiere a aquello que genera una reacción.',
+    },
+    {
+      termino: 'SIAU',
+      significado: 'Servicio de Información y Atención al Usuario.',
+    },
+    {
+      termino: 'Veedor',
+      significado:
+        'Persona que tiene la facultad y la responsabilidad de observar, inspeccionar y controlar ciertas cuestiones, para determinar si tienen conformidad con lo establecido por las normas.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: 'Calidad de los servicios farmacéuticos',
+      referencia:
+        'Resolución 1403 de 2007. [Ministerio de la Protección Social]. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos, y se dictan otras disposiciones.  Mayo 14 de 2007.',
+      tipo: 'Documento',
+      link:
+        'https://www.invima.gov.co/documents/20143/453029/Resoluci%C3%B3n+1403+de+2007.pdf/6b2e1ce1-bb34-e17f-03ef-34e35c126949',
+    },
+    {
+      tema: 'Control social al derecho a la salud',
+      referencia:
+        'Contraloría delegada para la participación ciudadana. (2018). <i>Plan Nacional de Formación, Control Social a la Gestión Pública. Control social al derecho a la salud fase de focalización.</i> Contraloría General de la República.',
+      tipo: 'Documento',
+      link:
+        'https://www.contraloria.gov.co/documents/621871/1131800/M%C3%B3dulo+7+Salud.pdf/ab0863a8-3ab4-4698-b6ad-4f91ab97da59?version=1.0',
+    },
+    {
+      tema: 'Documento orientador de la Ley 850 de 2003',
+      referencia:
+        'Control Social a la Gestión Pública. (s.f.). <i>Documento orientador de la Ley 850 de 2003.</i> Red Institucional de Apoyo a las Veedurías Ciudadanas.',
+      tipo: 'Documento',
+      link:
+        'https://www.procuraduria.gov.co/portal/media/file/DocLey850_web.pdf',
+    },
+    {
+      tema: 'Ley de participación ciudadana',
+      referencia:
+        'Ministerio del Interior de Colombia. (2016). <i>Ley Estatutaria de Participación Ciudadana</i> [video]. YouTube.',
+      tipo: 'Vídeo',
+      link: ' https://www.youtube.com/watch?v=hMYk6x-nlcE',
+    },
+    {
+      tema:
+        'Política de atención en salud “Humanización de los servicios de salud”',
+      referencia:
+        'Cleveland Clinic. (2016). Empatía: el vínculo humano para la atención del paciente. [video]. YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=aJGW4OxKHUg',
+    },
+    {
+      tema:
+        'Veeduría ciudadana en el ciudadana en el sistema general de seguridad social en salud',
+      referencia:
+        'Supersalud. (2003). <i>El Control que defiende los derechos de los usuarios. Veeduría ciudadana en el sistema general de seguridad social en salud.</i>',
+      tipo: 'Cartilla ',
+      link:
+        'https://docs.supersalud.gov.co/PortalWeb/ProteccionUsuario/OtrosDocumentosProteccionUsuario/cartilla%20veeduria%20ciudadana.pdf',
     },
   ],
   creditos: [
@@ -135,15 +245,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -151,10 +261,55 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instruccional - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Luz Adriana Cárdenas',
+          cargo: 'Experta temática - 2021',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Emilia Sarmiento Mora',
+          cargo: 'Experta temática - 2021',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Edwing Amir Moreno Moreno',
+          cargo: 'Experto temático - 2021',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Paula Andrea Taborda Ortiz',
+          cargo: 'Diseñadora Instruccional - 2021',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo:
+            'Diseñadora Instruccional – Revisora Metodológica y Pedagógica - 2021',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico - 2021',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional - 2021',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -162,28 +317,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Manuel Felipe Echavarria Orozco',
+          cargo: 'Desarrollador Fullstack - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisua',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -191,22 +352,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validadora de recursos educativos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabián Castaño Pérez',
+          cargo: 'Validadora de recursos educativos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
