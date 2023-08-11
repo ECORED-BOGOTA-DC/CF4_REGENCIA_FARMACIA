@@ -121,7 +121,7 @@ export default {
       referencia:
         'Contraloría delegada para la participación ciudadana. (2018). Plan Nacional de Formación, Control Social a la Gestión Pública. Control social al derecho a la salud fase de focalización. Contraloría General de la República. ',
       link:
-        'https://www.contraloria.gov.co/documents/621871/1131800/M%C3%B3dulo+7+Salud.pdf/ab0863a8-3ab4-4698-b6ad-4f91ab97da59?version=1.0',
+        'https://www.contraloria.gov.co/contraloria/la-entidad/organigrama-y-dependencias/contraloria-delegada-para-la-participacion-ciudadana',
     },
     {
       referencia:
