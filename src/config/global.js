@@ -121,7 +121,7 @@ export default {
       referencia:
         'Contraloría delegada para la participación ciudadana. (2018). Plan Nacional de Formación, Control Social a la Gestión Pública. Control social al derecho a la salud fase de focalización. Contraloría General de la República. ',
       link:
-        'https://www.contraloria.gov.co/documents/621871/1131800/M%C3%B3dulo+7+Salud.pdf/ab0863a8-3ab4-4698-b6ad-4f91ab97da59?version=1.0',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IGUB/control-social-salud-contraloria.pdf',
     },
     {
       referencia:
@@ -182,7 +182,7 @@ export default {
     },
     {
       termino: 'SIAU',
-      significado: 'Servicio de Información y Atención al Usuario.',
+      significado: ' Servicio de Información y Atención al Usuario.',
     },
     {
       termino: 'Veedor',
@@ -205,7 +205,7 @@ export default {
         'Contraloría delegada para la participación ciudadana. (2018). <i>Plan Nacional de Formación, Control Social a la Gestión Pública. Control social al derecho a la salud fase de focalización.</i> Contraloría General de la República.',
       tipo: 'Documento',
       link:
-        'https://www.contraloria.gov.co/documents/621871/1131800/M%C3%B3dulo+7+Salud.pdf/ab0863a8-3ab4-4698-b6ad-4f91ab97da59?version=1.0',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/INEC/IGUB/control-social-salud-contraloria.pdf',
     },
     {
       tema: 'Documento orientador de la Ley 850 de 2003',
@@ -226,13 +226,13 @@ export default {
       tema:
         'Política de atención en salud “Humanización de los servicios de salud”',
       referencia:
-        'Cleveland Clinic. (2016). Empatía: el vínculo humano para la atención del paciente. [video]. YouTube.',
+        'Cleveland Clinic. (2016). <i>Empatía: el vínculo humano para la atención del paciente.</i> [video]. YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=aJGW4OxKHUg',
     },
     {
       tema:
-        'Veeduría ciudadana en el ciudadana en el sistema general de seguridad social en salud',
+        'Veeduría ciudadana en el ciudadano en el sistema general de seguridad social en salud',
       referencia:
         'Supersalud. (2003). <i>El Control que defiende los derechos de los usuarios. Veeduría ciudadana en el sistema general de seguridad social en salud.</i>',
       tipo: 'Cartilla ',
@@ -261,30 +261,8 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nelly Parra Guarín',
-          cargo: 'Adecuación instruccional - 2023',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Metodología para la formación virtual',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Luz Adriana Cárdenas',
-          cargo: 'Experta temática - 2021',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Emilia Sarmiento Mora',
           cargo: 'Experta temática - 2021',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Edwing Amir Moreno Moreno',
-          cargo: 'Experto temático - 2021',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
@@ -295,21 +273,32 @@ export default {
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora Instruccional – Revisora Metodológica y Pedagógica - 2021',
+            'Diseñadora Instruccional – Revisora Metodológica y Pedagógica',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Asesor pedagógico - 2021',
+          cargo: 'Asesor pedagógico',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instruccional - 2021',
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuación instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

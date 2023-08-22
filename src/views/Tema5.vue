@@ -16,13 +16,13 @@
       .row.col-11.justify-content-around
         .col-lg-5.fond4.p-5.mb-3.mx-0
           figure.mb-5
-            img.img-c.img-120(src="@/assets/tema5/img-1.svg")
+            img.img-c.img-120(src="@/assets/tema5/img-1.svg", alt='Imágen decorativa')
           h3.text-center El proceso de humanización de los servicios asistenciales
           p.text-center Es parte fundamental de la calidad del servicio que se presta; cuando una persona se enferma su dignidad se encuentra temporalmente amenazada; enfermar hace que las personas se sientan más vulnerables y frágiles, por lo que resulta crucial la actitud del talento humano en salud, dispuestos a respetar a las personas y su dignidad; humanizar la salud es promover la dignidad inherente a todo ser humano.
                 
         .col-lg-5.fond5-.p-5.mb-3.mx-0
           figure.mb-5
-            img.img-c.img-120(src="@/assets/tema5/img-2.svg")
+            img.img-c.img-120(src="@/assets/tema5/img-2.svg", alt='Imágen decorativa')
           h3.text-center La verdadera empatía significa 
           p.text-center Mirar, hablar, sonreír, mostrar calidez, escuchar, manifestar sensibilidad y comprensión ante la situación del otro es un compromiso activo y una responsabilidad; humanizar la realidad del otro, las relaciones, las conductas y el entorno, especialmente cuando se toma conciencia de la vulnerabilidad ajena y de la necesidad de ayuda a los pacientes.
     
@@ -75,7 +75,7 @@
 
             template(v-slot:imagen)
               figure
-                img(src='@/assets/tema5/img-3.png')
+                img(src='@/assets/tema5/img-3.png', alt='Imágen decorativa')
                 
 
             .tarjeta.p-3.r-r-2(x="9%" y="62%")
@@ -129,7 +129,7 @@
               
         .col-lg-5.align-self-end(data-aos="zoom-in-up")
           figure.mb-0.mt-0
-            img.img-c.aab(src="@/assets/tema5/img-8.svg")
+            img.img-c.aab(src="@/assets/tema5/img-8.svg", alt='Imágen decorativa')
    
 
 

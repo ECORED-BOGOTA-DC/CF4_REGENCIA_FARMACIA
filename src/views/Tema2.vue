@@ -13,7 +13,7 @@
       .col-10.justify-content-center
         .row.justify-content-center.mb-5.fond4.align-self-center.mx-3
           .col-5
-              img(src="@/assets/tema2/img-1.svg") 
+              img(src="@/assets/tema2/img-1.svg", alt='Imágen decorativa') 
           .col-7.align-self-center.p-5.px-0.pl-5
               p.mb-0.ml
                 b Según la Resolución 2063 2017 PPSS “el Manual de Sistema de Información y Atención al Usuario (SIAU) se constituye en un instrumento para verificar y promover el cumplimiento de los deberes y derechos de los usuarios y familiares, e identificar las fallas que se puedan originar durante el proceso de atención; posteriormente, establecer acciones correctivas que permitan lograr los objetivos propuestos”. 
@@ -36,7 +36,7 @@
                       p.mb-2 Gestionar y agilizar las solicitudes de las historias clínicas que merezcan prontitud.
                     li 
                       i.ii.fas.fa-atom
-                      p.mb-2 Trámitar PQRSF.
+                      p.mb-2 Tramitar PQRSF.
                     li 
                       i.ii.fas.fa-atom
                       p.mb-2 Realizar encuestas en los servicios ambulatorios para medir el grado de satisfacción de los usuarios.
@@ -49,7 +49,7 @@
 
                 .col-5
                   figure
-                    img(src='@/assets/tema2/img-2.svg')
+                    img(src='@/assets/tema2/img-2.svg', alt='Imágen decorativa')
 
 
 

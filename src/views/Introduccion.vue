@@ -32,7 +32,7 @@
 
         .col-lg-5.row.justify-content-around.align-items-center.order-1.order-lg-2.mb-3
           figure.img-400
-            img(src='@/assets/tema1/img-intro.png')
+            img(src='@/assets/tema1/img-intro.png', alt='Imágen decorativa')
 
 
 
@@ -61,10 +61,13 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
+    .row.justify-content-center.align-items-center.mb-5
+      p <b>El servicio farmacéutico</b> evaluará, como mínimo, los siguientes aspectos:
+
     .row.justify-content-around.align-items-center 
       .col-12.col-lg-auto.justify-content-md-center.mb-5 
         figure.fond-1
-          img(src='@/assets/tema1/img-intro2-.svg')
+          img(src='@/assets/tema1/img-intro2-.svg', alt='Imágen decorativa')
       .col-lg.justify-content-md-center.align-self-center.px-5.mb-5 
                  
         .crd_03.mb-4.sep.pt-4

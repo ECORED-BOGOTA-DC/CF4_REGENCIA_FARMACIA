@@ -14,23 +14,23 @@
     .row.justify-content-around.align-items-center 
       .col-12.col-lg-auto.justify-content-md-center.mb-5 
         figure.fond-1
-          img(src='@/assets/tema3/img-1.svg')
+          img(src='@/assets/tema3/img-1.svg', alt='Imágen decorativa')
       .col-lg.justify-content-md-center.align-self-center.px-5.mb-5 
                  
         .crd_03.mb-4.sep.pt-4
           .crd_03__icon
             .crd_01__icon
-              img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
+              img.img-80(src="@/assets/tema3/img-1-.svg", alt='Imágen decorativa').class        
           .crd_03__txt
             p.mb-0.lii Mecanismos de participación ciudadana, la flexibilización que promueve y garantiza esta ley para utilizarlos de manera frecuente y efectiva.  
         .crd_03.mb-4.sep.pt-4
           .crd_01__icon
-              img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
+              img.img-80(src="@/assets/tema3/img-1-.svg", alt='Imágen decorativa').class        
           .crd_03__txt
             p.mb-0.lii Rendición pública de cuentas y el Control social a lo público, función que permite brindar al ciudadano las herramientas necesarias para consolidar su rol de observador y garante de los movimientos y decisiones de la administración pública, en cada uno de sus territorios.        
         .crd_03.mb-4.sep2.py-4
           .crd_01__icon
-              img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
+              img.img-80(src="@/assets/tema3/img-1-.svg", alt='Imágen decorativa').class        
           .crd_03__txt
             p.mb-0.lii Coordinación y promoción de la participación ciudadana en el Consejo Nacional de Participación.
 
@@ -41,13 +41,13 @@
       .row.col-11.justify-content-around
         .col-lg-5.fond4.p-5.mb-3.mx-0
           figure.mb-5
-            img.img-c.img-120(src="@/assets/tema3/img-2.svg")
+            img.img-c.img-120(src="@/assets/tema3/img-2.svg", alt='Imágen decorativa')
           h3.text-center Decreto 1757 de 1994
           p.text-center Se encuentra compilado junto con otras normas en materia de salud en el Decreto 780 de 2016, el cual estableció las formas y mecanismos para la participación social en salud
                 
         .col-lg-5.fond5-.p-5.mb-3.mx-0
           figure.mb-5
-            img.img-c.img-120(src="@/assets/tema3/img-3.svg")
+            img.img-c.img-120(src="@/assets/tema3/img-3.svg", alt='Imágen decorativa')
           h3.text-center Resolución 2063 de 2017 
           p.text-center Se adoptó la Política de Participación Social en Salud.
 
@@ -71,19 +71,19 @@
               p.mb-2 Controlar la adecuada canalización y resolución de inquietudes y peticiones que realicen los ciudadanos en el ejercicio de sus derechos y deberes ante las EAPB. 
             li 
               i.ii.fas.fa-atom
-              p.mb-2 Garantizar que las EAPB tomen las medidas correctivas necesarias frente a la calidad de los servicios
+              p.mb-2 Garantizar que las EAPB tomen las medidas correctivas necesarias frente a la calidad de los servicios.
 
                 
         .col-lg-5.align-self-end(data-aos="zoom-in-up")
           figure.mb-5.aab
-            img.img-c.aab(src="@/assets/tema3/img-4.svg")
+            img.img-c.aab(src="@/assets/tema3/img-4.svg", alt='Imágen decorativa')
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-10.justify-content-md-center.align-self-center
         .tarjeta.color-primario.mb-5.fond1.px-4.p-3.degra
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/tema3/img-7.svg")
+              img(src="@/assets/tema3/img-7.svg", alt='Imágen decorativa')
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -94,6 +94,9 @@
                   a.boton.bb(:href="('https://www.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/34232755')" target="_blank")
                     span.px-4 Ver  
                     i.fas.fa-link
+
+    .row.justify-content-center.align-items-center.mb-5
+      p Conozca las funciones de los veedores en salud:
 
     .row.justify-content-around.align-items-center
       .col-lg-6.justify-content-md-center.align-self-center.px-5
@@ -137,13 +140,13 @@
           .crd_03__txt
             p.mb-0.lii Impulsar las veedurías como un mecanismo de educación para la participación.
     figure.mb-5
-            img.img-c.aab(src="@/assets/tema3/img-5-.svg")          
+            img.img-c.aab(src="@/assets/tema3/img-5-.svg", alt='Imágen decorativa')          
     br
 
     .h3.text-center.mb-5 Participación ciudadana en salud
  
     figure.mb-5
-        img.img-c.aab(src="@/assets/tema3/img-6.svg")  
+        img.img-c.aab(src="@/assets/tema3/img-6.svg", alt='Imágen decorativa')  
     
 
 

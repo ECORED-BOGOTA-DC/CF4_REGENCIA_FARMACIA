@@ -9,7 +9,7 @@
       h1 Satisfacción del usuario
     p.mb-5 La satisfacción del usuario con los servicios médicos recibidos depende de muchos factores; se presenta una relación directa entre la atención brindada, el valor y las expectativas del usuario; esto determina el uso, la conexión y el resultado del servicio. Todo esto se relaciona con varios aspectos del servicio o atención de primera línea, en la que se incluyen todas las interacciones personales, desde el personal de vigilancia hasta el gerente y los especialistas más mencionados. 
     figure.px-3
-      img(src='@/assets/tema1/img-1-.svg')
+      img(src='@/assets/tema1/img-1-.svg', alt='Imágen decorativa')
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -27,13 +27,13 @@
 
           .col-md-6
             figure
-              img.img-300(src='@/assets/tema1/img-2-.svg')
+              img.img-300(src='@/assets/tema1/img-2-.svg', alt='Imágen decorativa')
               
 
         .row.justify-content-around
           .col-md-6.mb-4.mb-md-0
             figure
-              img.img-300(src='@/assets/tema1/img-3.svg')
+              img.img-300(src='@/assets/tema1/img-3.svg', alt='Imágen decorativa')
           .col-md-6.align-self-center
             h3 Buzón de sugerencias
             p Herramienta utilizada para conocer las necesidades, quejas y sugerencias que pueden tener los usuarios, expresadas de manera libre, privada y autónoma. 
@@ -48,7 +48,7 @@
         
           .col-md-6
             figure
-              img.img-300(src='@/assets/tema1/img-4.svg')
+              img.img-300(src='@/assets/tema1/img-4.svg', alt='Imágen decorativa')
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
@@ -61,7 +61,7 @@
 
           template(v-slot:imagen)
             figure
-              img(src='@/assets/tema1/img-5-.svg')
+              img(src='@/assets/tema1/img-5-.svg', alt='Imágen decorativa')
               
 
           .tarjeta.tt-n.p-3(x="17%" y="41%")
@@ -87,7 +87,7 @@
       h2 1.3	Mecanismos establecidos por la Constitución para garantizar el cumplimiento de los derechos fundamentales en salud
     .row
       figure
-        img(src='@/assets/tema1/img-6.svg')
+        img(src='@/assets/tema1/img-6.svg', alt='Imágen decorativa')
     #base.row.justify-content-around.align-items-center
       .row.col-11
         .row.mt-5
@@ -174,7 +174,7 @@
       .row
         .col-md-5.mb-5
           figure
-            img(src='@/assets/tema1/img-7.svg')
+            img(src='@/assets/tema1/img-7.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
          
@@ -212,7 +212,7 @@
       .row
         .col-md-5
           figure.mb-3
-            img(src='@/assets/tema1/img-8.svg')
+            img(src='@/assets/tema1/img-8.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
           
@@ -238,13 +238,13 @@
       .row
         .col-3
           figure
-            img(src='@/assets/tema1/img-9-1.svg')
+            img(src='@/assets/tema1/img-9-1.svg', alt='Imágen decorativa')
         .col-3
           figure
-            img(src='@/assets/tema1/img-9-2.svg')
+            img(src='@/assets/tema1/img-9-2.svg', alt='Imágen decorativa')
         .col-3
           figure
-            img(src='@/assets/tema1/img-9-3.svg')
+            img(src='@/assets/tema1/img-9-3.svg', alt='Imágen decorativa')
         .col-3
           figure
             img(src='@/assets/tema1/img-9-4.svg')                                    
@@ -262,7 +262,7 @@
       .row
         .col-md-5.mb-3
           figure
-            img(src='@/assets/tema1/img-10.svg')
+            img(src='@/assets/tema1/img-10.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
           
@@ -312,7 +312,7 @@
       .row
         .col-md-5
           figure.mb-5
-            img(src='@/assets/tema1/img-11.svg')
+            img(src='@/assets/tema1/img-11.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
           
@@ -337,7 +337,7 @@
       .row
         .col-md-5
           figure.mb-5
-            img(src='@/assets/tema1/img-12.svg')
+            img(src='@/assets/tema1/img-12.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
           
@@ -364,7 +364,7 @@
       .row
         .col-md-5
           figure.mb-5
-            img(src='@/assets/tema1/img-13.svg')
+            img(src='@/assets/tema1/img-13.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
           h3 Requisitos mínimos de una acción de tutela
@@ -397,7 +397,7 @@
       .row
         .col-md-5
           figure.mb-5
-            img(src='@/assets/tema1/img-14.svg')
+            img(src='@/assets/tema1/img-14.svg', alt='Imágen decorativa')
                
         .col-md-7.mb-4.mb-md-0
           ul.lista-ul--color.fa-ul2
@@ -430,7 +430,7 @@
         .col-md-6.d-flex
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los jueces municipales se presenta la acción de tutela contra cualquier autoridad de orden departamental, distrital o municipal.
                
@@ -438,14 +438,14 @@
 
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los jueces del circuito se interpone la acción de tutela contra cualquier autoridad del orden nacional.
 
 
       .crd_01.mb-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Superiores de Distrito Judicial o los Tribunales Administrativos se instauran las acciones de tutela contra las actuaciones del Presidente de la República, Contralor General de la República, Procurador General de la Nación, Fiscal General de la Nación, Registrador Nacional del Estado Civil, Defensor del Pueblo, Auditor General de la República, Contador General de la Nación y Consejo Nacional Electoral.
 
@@ -453,7 +453,7 @@
         .col-md-6.d-flex
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante la Corte Suprema de Justicia o el Consejo de Estado se promueven las acciones contra el Consejo Superior de la Judicatura y la Comisión Nacional de Disciplina Judicial.
                
@@ -461,7 +461,7 @@
 
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante el Superior Funcional de la autoridad judicial donde intervienen se presenta la acción de tutela contra los Fiscales o los Procuradores.
 
@@ -470,7 +470,7 @@
         .col-md-6.d-flex
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Superiores de Distrito Judicial o Sala Disciplinaria del Consejo Seccional de la Judicatura se interpone la acción de tutela contra Fiscales que intervienen ante Tribunales o Altas Cortes.
                
@@ -478,14 +478,14 @@
 
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Administrativos o la Sala Disciplinaria del Consejo Seccional de la Judicatura se promueve la acción de tutela contra Procuradores que intervienen ante Tribunales o Altas Cortes.
       .row.mb-5
         .col-md-6.d-flex
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante el superior funcional de la autoridad accionada se presenta la acción de tutela contra los Jueces o Tribunales.
                
@@ -493,7 +493,7 @@
 
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Superiores de Distrito Judicial se presenta la acción de tutela contra los Consejos Seccionales de la Judicatura y las Comisiones Seccionales de Disciplina Judicial. Asimismo, conocerán de las acciones de tutela contra las autoridades administrativas que ejerzan funciones jurisdiccionales.
 
@@ -501,14 +501,14 @@
         .col-md-6.d-flex
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante la Corte Suprema de Justicia o el Consejo de Estado se interpone la acción de tutela contra estas entidades respectivamente. Su reparto será ante la misma Corporación y se resolverá por la Sala de Casación, Sección o Subsección que corresponda.
                
         .col-md-6.d-flex
           .crd_01.mb-sm-5
             .crd_01__icon
-              img(src="@/assets/tema1/img-15.svg", alt="alt").class          
+              img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante la autoridad judicial que conozca del recurso extraordinario de anulación se promueve la acción de tutela contra los Tribunales de Arbitramento.
 

@@ -20,7 +20,7 @@
       .col-10.justify-content-center
         .row.justify-content-center.mb-5.fond4.align-self-center.mx-3
           .col-5
-              img(src="@/assets/tema4/img-1.svg") 
+              img(src="@/assets/tema4/img-1.svg", alt='Imágen decorativa') 
           .col-7.align-self-center.pt-5.px-5.mb-3
               p Todos los niños, adolescentes, adultos mayores, personas con algún tipo de discapacidad física, psíquica o sensorial; todas las mujeres cabeza de familia, personas desplazadas por la violencia, personas que se encuentran en extrema pobreza y todas aquellas personas que, por su situación de debilidad manifiesta, se ubican en una posición de desigualdad material con respecto al resto de la población.
 
