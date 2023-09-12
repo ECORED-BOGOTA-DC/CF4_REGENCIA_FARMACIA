@@ -8,68 +8,69 @@
         span 3
       h1 Ley de participación ciudadana
     
-    p.mb-5 Con la Resolución 2063 de 2017 el Ministerio de Salud y Protección Social adoptó la Política de Participación en Salud del PPSS, que tiene como objetivo involucrar a la comunidad en la organización, gestión y supervisión del sistema de salud en general. La coordinación y asistencia técnica del PSPP está liderada por el Territorial de Salud de la Oficina de Gestión Territorial, Emergencias y Desastres, y por las autoridades locales que inician la gestión de estos procesos. También están encargados de fomentar la participación ciudadana en las actividades de difusión, promoción y garantía de los derechos humanos.
-    h3 La Ley de participación ciudadana se apunta bajo tres pilares fundamentales:
+    p.mb-5(data-aos="fade-right") Con la Resolución 2063 de 2017 el Ministerio de Salud y Protección Social adoptó la Política de Participación en Salud del PPSS, que tiene como objetivo involucrar a la comunidad en la organización, gestión y supervisión del sistema de salud en general. La coordinación y asistencia técnica del PSPP está liderada por el Territorial de Salud de la Oficina de Gestión Territorial, Emergencias y Desastres, y por las autoridades locales que inician la gestión de estos procesos. También están encargados de fomentar la participación ciudadana en las actividades de difusión, promoción y garantía de los derechos humanos.
+
+    h3(data-aos="fade-left") La Ley de participación ciudadana se apunta bajo tres pilares fundamentales:
 
     .row.justify-content-around.align-items-center 
       .col-12.col-lg-auto.justify-content-md-center.mb-5 
-        figure.fond-1
+        figure.fond-1(data-aos="zoom-in")
           img(src='@/assets/tema3/img-1.svg', alt='Imágen decorativa')
       .col-lg.justify-content-md-center.align-self-center.px-5.mb-5 
                  
-        .crd_03.mb-4.sep.pt-4
+        .crd_03.mb-4.sep.pt-4(data-aos="fade-up-left")
           .crd_03__icon
             .crd_01__icon
               img.img-80(src="@/assets/tema3/img-1-.svg", alt='Imágen decorativa').class        
           .crd_03__txt
             p.mb-0.lii Mecanismos de participación ciudadana, la flexibilización que promueve y garantiza esta ley para utilizarlos de manera frecuente y efectiva.  
-        .crd_03.mb-4.sep.pt-4
+        .crd_03.mb-4.sep.pt-4(data-aos="fade-up-left")
           .crd_01__icon
               img.img-80(src="@/assets/tema3/img-1-.svg", alt='Imágen decorativa').class        
           .crd_03__txt
             p.mb-0.lii Rendición pública de cuentas y el Control social a lo público, función que permite brindar al ciudadano las herramientas necesarias para consolidar su rol de observador y garante de los movimientos y decisiones de la administración pública, en cada uno de sus territorios.        
-        .crd_03.mb-4.sep2.py-4
+        .crd_03.mb-4.sep2.py-4(data-aos="fade-up-left")
           .crd_01__icon
               img.img-80(src="@/assets/tema3/img-1-.svg", alt='Imágen decorativa').class        
           .crd_03__txt
             p.mb-0.lii Coordinación y promoción de la participación ciudadana en el Consejo Nacional de Participación.
 
 
-    p.mb-5  Como ciudadanos es importante conocer las normas y los espacios que permiten velar por el cumplimiento del derecho a la salud en el país. En Colombia, el control y veeduría ciudadana al cumplimiento del derecho a la salud se encuentra establecido principalmente en las siguientes normas:
+    p.mb-5(data-aos="fade-right") Como ciudadanos es importante conocer las normas y los espacios que permiten velar por el cumplimiento del derecho a la salud en el país. En Colombia, el control y veeduría ciudadana al cumplimiento del derecho a la salud se encuentra establecido principalmente en las siguientes normas:
 
     .row.justify-content-around.mb-5
       .row.col-11.justify-content-around
-        .col-lg-5.fond4.p-5.mb-3.mx-0
+        .col-lg-5.fond4.p-5.mb-3.mx-0(data-aos="flip-left")
           figure.mb-5
             img.img-c.img-120(src="@/assets/tema3/img-2.svg", alt='Imágen decorativa')
           h3.text-center Decreto 1757 de 1994
           p.text-center Se encuentra compilado junto con otras normas en materia de salud en el Decreto 780 de 2016, el cual estableció las formas y mecanismos para la participación social en salud
                 
-        .col-lg-5.fond5-.p-5.mb-3.mx-0
+        .col-lg-5.fond5-.p-5.mb-3.mx-0(data-aos="flip-right")
           figure.mb-5
             img.img-c.img-120(src="@/assets/tema3/img-3.svg", alt='Imágen decorativa')
           h3.text-center Resolución 2063 de 2017 
           p.text-center Se adoptó la Política de Participación Social en Salud.
 
-    p.mb-5  De acuerdo con el #[b Decreto 780 de 2016] se definen 3 niveles de participación en salud: #[b ciudadano, comunitario e institucional.] Los niveles ciudadano y comunitario se clasifican como formas de participación social en salud; no requieren de los espacios dispuestos por las instituciones como los comités o asociaciones de usuarios, sino que pueden ser llevados a cabo por cualquier ciudadano o grupo de ciudadanos interesados en participar en la planeación, gestión, evaluación y veeduría del derecho a la salud. Un ejemplo puede ser el exigir a las instituciones prestadores de servicios de salud contar con #[b intérpretes] para facilitar el acceso a servicios de salud a personas pertenecientes a pueblos étnicos o con discapacidad auditiva (lenguaje de señas). En el nivel institucional, interactúa la ciudadanía con los servidores públicos y privados, fomentando la creación de las asociaciones de usuarios y, por ende, la gestión y pronta respuesta a las solicitudes de los mismos.
+    p.mb-5(data-aos="fade-right") De acuerdo con el #[b Decreto 780 de 2016] se definen 3 niveles de participación en salud: #[b ciudadano, comunitario e institucional.] Los niveles ciudadano y comunitario se clasifican como formas de participación social en salud; no requieren de los espacios dispuestos por las instituciones como los comités o asociaciones de usuarios, sino que pueden ser llevados a cabo por cualquier ciudadano o grupo de ciudadanos interesados en participar en la planeación, gestión, evaluación y veeduría del derecho a la salud. Un ejemplo puede ser el exigir a las instituciones prestadores de servicios de salud contar con #[b intérpretes] para facilitar el acceso a servicios de salud a personas pertenecientes a pueblos étnicos o con discapacidad auditiva (lenguaje de señas). En el nivel institucional, interactúa la ciudadanía con los servidores públicos y privados, fomentando la creación de las asociaciones de usuarios y, por ende, la gestión y pronta respuesta a las solicitudes de los mismos.
 
 
 
     .row.justify-content-around.mb-5
       .row.col-11.justify-content-around.fond-1.pt-5.px-5
-        p Como veedores ciudadanos del derecho a la salud es prioritario reconocer los compromisos a cargo de los entes territoriales en la prestación del servicio de atención a la comunidad, de manera que los municipios, distritos y departamentos deben: 
+        p(data-aos="fade-left") Como veedores ciudadanos del derecho a la salud es prioritario reconocer los compromisos a cargo de los entes territoriales en la prestación del servicio de atención a la comunidad, de manera que los municipios, distritos y departamentos deben: 
         .col-lg-7
           ul.lista-ul--color.fa-ul2
-            li 
+            li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-2 Velar porque las empresas administradoras de planes de beneficio establezcan mecanismos de atención a los usuarios y canalicen sus peticiones.
-            li 
+            li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-2 Atender y canalizar las veedurías ciudadanas y comunitarias que se presenten en salud, ante la institución y/o dependencia pertinente en la respectiva entidad territorial. 
-            li 
+            li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-2 Controlar la adecuada canalización y resolución de inquietudes y peticiones que realicen los ciudadanos en el ejercicio de sus derechos y deberes ante las EAPB. 
-            li 
+            li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-2 Garantizar que las EAPB tomen las medidas correctivas necesarias frente a la calidad de los servicios.
 
@@ -80,7 +81,7 @@
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-10.justify-content-md-center.align-self-center
-        .tarjeta.color-primario.mb-5.fond1.px-4.p-3.degra
+        .tarjeta.color-primario.mb-5.fond1.px-4.p-3.degra(data-aos="flip-down")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/tema3/img-7.svg", alt='Imágen decorativa')
@@ -96,23 +97,23 @@
                     i.fas.fa-link
 
     .row.justify-content-center.align-items-center.mb-5
-      p Conozca las funciones de los veedores en salud:
+      p(data-aos="fade-right") Conozca las funciones de los veedores en salud:
 
     .row.justify-content-around.align-items-center
       .col-lg-6.justify-content-md-center.align-self-center.px-5
-        .crd_03.mb-4.sep.pt-4
+        .crd_03.mb-4.sep.pt-4(data-aos="fade-right")
           .crd_03__icon
             .cc1.img-c
               h2.text-white.cc3 1         
           .crd_03__txt
             p.mb-0.lii  Contribuir a una gestión adecuada de los organismos de salud.  
-        .crd_03.mb-4.sep.pt-4
+        .crd_03.mb-4.sep.pt-4(data-aos="fade-right")
           .crd_03__icon
             .cc1.img-c
               h2.text-white.cc3 2         
           .crd_03__txt
             p.mb-0.lii Propiciar decisiones saludables por parte de las autoridades, las empresas privadas, las entidades públicas y la comunidad. 
-        .crd_03.mb-4.sep.py-4
+        .crd_03.mb-4.sep.py-4(data-aos="fade-right")
           .crd_03__icon
             .cc1.img-c
               h2.text-white.cc3 3         
@@ -121,19 +122,19 @@
           
       .col-lg-6.justify-content-md-center.align-self-center.px-5
                  
-        .crd_03.mb-4.sep.pt-4
+        .crd_03.mb-4.sep.pt-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
               h2.text-white.cc3 4        
           .crd_03__txt
             p.mb-0.lii Velar por una utilización adecuada de los recursos.
-        .crd_03.mb-4.sep.pt-4
+        .crd_03.mb-4.sep.pt-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
               h2.text-white.cc3 5         
           .crd_03__txt
             p.mb-0.lii Coordinar con todas las instancias de vigilancia y control la aplicación efectiva de las normas, y velar por el cumplimiento de las mismas.
-        .crd_03.mb-4.sep.py-4
+        .crd_03.mb-4.sep.py-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
               h2.text-white.cc3 6         
@@ -146,7 +147,7 @@
     .h3.text-center.mb-5 Participación ciudadana en salud
  
     figure.mb-5
-        img.img-c.aab(src="@/assets/tema3/img-6.svg", alt='Imágen decorativa')  
+        img.img-c.aab(src="@/assets/tema3/img-6.svg", alt='Imagen que contiene un esquema de los mecanismos de participación ciudadana, los cuales son:<br>Ciudadana:<br>Derecho de petición<br>Acción de tutela<br>Acción de cumplimiento<br>Acción popular<br>Acción de grupo<br>Habeas corpus<br>Voto popular<br>Plebiscito<br>Referendo<br>Revocatoria del mandato<br>Iniciativa popular<br>Consulta popular<br>Comunitaria:<br>Copacos<br>Veedurías en salud<br>Asociación o Liga de usuarios<br>Comité de ética hospitalaria')  
     
 
 
