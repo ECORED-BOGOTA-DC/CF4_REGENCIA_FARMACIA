@@ -2,17 +2,13 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-    
     p(data-aos="fade-right") En el área de la salud las preocupaciones sobre el aseguramiento de la calidad se desprenden de la responsabilidad de sus profesionales, para detectar lo mejor para sus pacientes (principio de calidad). También hay que tener en cuenta que las inquietudes por la calidad se asocian con la minimización de no tener las determinaciones correspondientes con respecto al servicio, y que no son necesarias en los procedimientos de diagnóstico, terapias y asistencia.
-
     p(data-aos="fade-left") Normalmente, en el sector de la salud, la calidad se define basada en los criterios que se exponen a continuación:
-
     .row.justify-content-around.mb-5(data-aos="zoom-in-up")
       .col-10.fond-1.row.p-3.justify-content-around 
         .col-lg-5.justify-content-md-center.order-2.order-lg-1.py-5
@@ -29,18 +25,12 @@
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-0 Brinda #[strong interés] correcto y amigable a las personas, a sus familias y/o cuidadores. 
-
         .col-lg-5.row.justify-content-around.align-items-center.order-1.order-lg-2.mb-3
           figure.img-400(data-aos="fade-left")
             img(src='@/assets/tema1/img-intro.png', alt='Imágen decorativa')
-
-
-
     p(data-aos="fade-right") Con base en lo anterior, para todo el sistema de salud se hace necesario regularizar los distintos parámetros de la calidad, los cuales han sido agrupados en cuatro categorías de la siguiente manera:
-
     .row.justify-content-around.mb-5
       .col-10.fond-1.row.p-3.justify-content-around.p-5
-
         ul.lista-ul--color.fa-ul2
           li(data-aos="fade-up") 
             i.ii.fas.fa-atom
@@ -54,26 +44,19 @@
           li(data-aos="fade-up") 
             i.ii.fas.fa-atom
             p.mb-0 #[strong Gestión de la calidad:] todo el conjunto de técnicas de planificación dirigidas hacia la obtención de los niveles más altos de calidad en una institución.
-
-
     .row.justify-content-center.align-items-center.mb-5
       p(data-aos="fade-right") El personal de calidad de cada institución que presta servicios de salud, basado en la labor de la organización, es el que determina los criterios a evaluar, y de manera permanente, la prestación de los servicios que se ofrecen en el portafolio de la organización. Esto se realiza con el fin de identificar las oportunidades para mejorar y actuar en el cumplimiento de la norma, pero buscando cada día, mucha más credibilidad y aceptación por parte de los clientes, sean externos o internos. A todo lo dicho anteriormente, se le conoce como <b>Cultura de calidad del servicio</b>.
-
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="flip-up")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/lOP3Z3eStoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       p <b>El servicio farmacéutico</b> evaluará, como mínimo, los siguientes aspectos:
-
     .row.justify-content-around.align-items-center 
       .col-12.col-lg-auto.justify-content-md-center.mb-5 
         figure.fond-1(data-aos="fade-right")
           img(src='@/assets/tema1/img-intro2-.svg', alt='Imágen decorativa')
-      .col-lg.justify-content-md-center.align-self-center.px-5.mb-5 
-                 
+      .col-lg.justify-content-md-center.align-self-center.px-5.mb-5
         .crd_03.mb-4.sep.pt-4(data-aos="fade-left")
           .crd_03__icon
             .cc1.img-c
@@ -92,8 +75,7 @@
               h2.text-white.cc3 3         
           .crd_03__txt
             p.mb-0.lii #[strong Efectividad:] si los desenlaces se dieron acordes con las solicitudes, apoyos y necesidades de los usuarios. 
-    p(data-aos="fade-right") Las conclusiones de las mediciones se pondrán a disposición de los usuarios, beneficiarios o destinatarios y, si tales facilidades se encuentran disponibles en cada entidad, con preferencia en la Web, para que puedan ser vigilados por determinados ciudadanos y agencias de gestión.             
-
+    p(data-aos="fade-right") Las conclusiones de las mediciones se pondrán a disposición de los usuarios, beneficiarios o destinatarios y, si tales facilidades se encuentran disponibles en cada entidad, con preferencia en la Web, para que puedan ser vigilados por determinados ciudadanos y agencias de gestión.
 
 </template>
 

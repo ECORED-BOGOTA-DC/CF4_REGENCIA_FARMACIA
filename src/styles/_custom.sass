@@ -1,7 +1,17 @@
+.banner-principal__row .banner-principal__img
+  width: 420px
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: relative
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+  
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner-interno.png") !important
-
-
 
 .img-infografica__item 
     width: 8.5% !important
@@ -75,9 +85,9 @@
   border-top: 1px solid #AFAFAF !important
   border-bottom: 1px solid #AFAFAF !important
 
-$crd-icon-size: 120px
+$crd-icon-size: 100px
 $crd-padding: 1.5rem
-$crd-width: calc(100% - ((#{$crd-icon-size} / 2))
+$crd-width: calc(100% - ((#{$crd-icon-size} / 3))
 
 .crd_03
   position: relative
@@ -129,6 +139,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
 .crd_01 
   position: relative
   display: flex
+  height: 100%
   flex-direction: row
   justify-content: start
   align-items: center 
@@ -149,7 +160,7 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
     order: 1
     flex-basis: auto
     width: $crd-icon-size
-    margin-right: 15px
+    margin-right: 10px
     img   
       width: $crd-icon-size
   &__txt
@@ -197,9 +208,6 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   border-radius: 50px
   top: -10%
   bottom: 40%
-
-  
-
 
 $anchorBtn_color: #E6F4FF
 $anchorBtn_number_cl: #00BCD4

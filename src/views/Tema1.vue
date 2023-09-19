@@ -2,87 +2,67 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Satisfacción del usuario
-    p.mb-5(data-aos="fade-right") La satisfacción del usuario con los servicios médicos recibidos depende de muchos factores; se presenta una relación directa entre la atención brindada, el valor y las expectativas del usuario; esto determina el uso, la conexión y el resultado del servicio. Todo esto se relaciona con varios aspectos del servicio o atención de primera línea, en la que se incluyen todas las interacciones personales, desde el personal de vigilancia hasta el gerente y los especialistas más mencionados. 
-    figure.px-3
-      img(src='@/assets/tema1/img-1-.svg', alt='Infografía que menciona la satisfacción al usuario, la cual se centra en:<br>Cumplimiento de expectativas.<br>Servicios centrados en el usuario/cliente.<br>Resolución de problemas.<br>Grado de oportunidad y amabilidad en el servicio.<br>Trato brindado.')
-
+    p.mb-0(data-aos="fade-right") La satisfacción del usuario con los servicios médicos recibidos depende de muchos factores; se presenta una relación directa entre la atención brindada, el valor y las expectativas del usuario; esto determina el uso, la conexión y el resultado del servicio. Todo esto se relaciona con varios aspectos del servicio o atención de primera línea, en la que se incluyen todas las interacciones personales, desde el personal de vigilancia hasta el gerente y los especialistas más mencionados. 
+    figure.px-3(data-aos="fade-left")
+      img(src='@/assets/tema1/img-1-.svg', style="width:1000px",alt='Infografía que menciona la satisfacción al usuario, la cual se centra en:<br>Cumplimiento de expectativas.<br>Servicios centrados en el usuario/cliente.<br>Resolución de problemas.<br>Grado de oportunidad y amabilidad en el servicio.<br>Trato brindado.').m-auto
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1	Métodos proactivos
-
     p(data-aos="fade-left") Son los procedimientos que posibilitan identificar las necesidades y el grado de satisfacción del usuario/cliente con la atención que le ha sido brindada; se lleva a cabo a través de herramientas como entrevista postventa, buzón de sugerencias y encuesta de satisfacción, los cuales se podrán conocer a continuación:
     .contenedor.contenedor__bbg1
       .mb-5
     .row
-      PasosA.color-acento-contenido.mb-5(tipo="n")
+      PasosA.color-acento-contenido(tipo="n")
         .row.justify-content-around(data-aos="fade-left")
           .col-md-6.mb-4.mb-md-0.align-self-center
             h3 Entrevista postventa
             p El sistema de información y atención al usuario puesto en marcha por las instituciones de salud.
-
           .col-md-6
             figure
               img.img-300(src='@/assets/tema1/img-2-.svg', alt='Imágen decorativa')
-              
-
         .row.justify-content-around(data-aos="fade-right")
           .col-md-6.mb-4.mb-md-0
             figure
               img.img-300(src='@/assets/tema1/img-3.svg', alt='Imágen decorativa')
           .col-md-6.align-self-center
             h3 Buzón de sugerencias
-            p Herramienta utilizada para conocer las necesidades, quejas y sugerencias que pueden tener los usuarios, expresadas de manera libre, privada y autónoma. 
-
-            
-
+            p Herramienta utilizada para conocer las necesidades, quejas y sugerencias que pueden tener los usuarios, expresadas de manera libre, privada y autónoma.
         .row.justify-content-around(data-aos="fade-left")
           .col-md-6.mb-4.mb-md-0
             h3 Encuesta de satisfacción
             p Datos estadísticos que utilizan las instituciones al encuestar clientes internos y externos para obtener los distintos niveles de satisfacción en los servicios, infraestructura, atención prestada y trato de los empleados hacia el usuario.
-
-        
           .col-md-6
             figure
               img.img-300(src='@/assets/tema1/img-4.svg', alt='Imágen decorativa')
-
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Métodos reactivos 
-    p.mb-5(data-aos="fade-left") Estos métodos se establecen de manera dinámica por medio de un mecanismo legal que los usuarios pueden utilizar para presentar quejas y reclamos, cuyo objetivo es brindar una respuesta rápida y satisfactoria a sus quejas, procesando la información del usuario. Es común que todas las organizaciones públicas o privadas denuncien o resuelvan una situación de manera oportuna y efectiva. A continuación, se podrá conocer las definiciones de estos métodos: 
-
+    p.mb-5(data-aos="fade-left") Estos métodos se establecen de manera dinámica por medio de un mecanismo legal que los usuarios pueden utilizar para presentar quejas y reclamos, cuyo objetivo es brindar una respuesta rápida y satisfactoria a sus quejas, procesando la información del usuario. Es común que todas las organizaciones públicas o privadas denuncien o resuelvan una situación de manera oportuna y efectiva. A continuación, se podrá conocer las definiciones de estos métodos:
     .row.justify-content-around.align-items-center(data-aos="zoom-in-down")
       .col-lg-6
-        ImagenInfografica.mb-5
-
+        ImagenInfografica
           template(v-slot:imagen)
             figure
               img(src='@/assets/tema1/img-5-.svg', alt='Imagen que contiene un esquema que define cada uno de los métodos reactivos, los cuales representan cada una de las letras PQRSF de la siguiente manera:<br>(P) Peticiones de información: se solicita acceso a la información ante las autoridades, para el conocimiento de una actuación en un acto concreto y determinado.<br>(Q) Quejas: se ponen en conocimiento de las autoridades las conductas irregulares de empleados oficiales o particulares, a quienes se ha adjudicado la prestación de un servicio público.<br>(R) Reclamos: manifestación de inconformidad con la prestación de un servicio o con la atención prestada por parte de un funcionario.<br>(S) Sugerencias: es la proposición o indicación que se ofrece, con el propósito de influir en el mejoramiento de un proceso, relacionado con la prestación de un servicio.<br>(F) Felicitaciones: agradecimiento por la atención brindada, luego de recibir un trato digno y resolver una situación de salud.')
-              
-
           .tarjeta.tt-n.p-3(x="17%" y="41%")
             .h5.mb-2 Peticiones de información 
             p Se solicita acceso a la información ante las autoridades, para el conocimiento de una actuación en un acto concreto y determinado.  
           .tarjeta.tt-n.p-3(x="50%" y="13%")
             .h5.mb-2 Quejas
             p Se ponen en conocimiento de las autoridades las conductas irregulares de empleados oficiales o particulares, a quienes se ha adjudicado la prestación de un servicio público.
-          
           .tarjeta.tt-n.p-3(x="82%" y="41%")
             .h5.mb-2 Reclamos 
-            p Manifestación de inconformidad con la prestación de un servicio o con la atención prestada por parte de un funcionario.      
-
+            p Manifestación de inconformidad con la prestación de un servicio o con la atención prestada por parte de un funcionario.
           .tarjeta.tt-n.p-3(x="72%" y="80%")
             .h5.mb-2 Sugerencias
             p Es la proposición o indicación que se ofrece, con el propósito de influir en el mejoramiento de un proceso, relacionado con la prestación de un servicio.
-
           .tarjeta.tt-n.p-3(x="27%" y="80%")
             .h5.mb-2 Felicitaciones
             p Agradecimiento por la atención brindada, luego de recibir un trato digno y resolver una situación de salud.
-    
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3	Mecanismos establecidos por la Constitución para garantizar el cumplimiento de los derechos fundamentales en salud
@@ -116,7 +96,6 @@
                     h3 3
                 .anchorBtn__body
                   p ¿Qué incluye un derecho de petición?
-       
           .col-md-6.col-lg-4
             .anchorBtn
               a(href="#4")
@@ -141,7 +120,6 @@
                     h3 6
                 .anchorBtn__body
                   p Características, requisitos y quien la presenta
-                    
         .row.justify-content-around.align-items-center
           .col-md-6.col-lg-4
             .anchorBtn
@@ -159,10 +137,6 @@
                     h3 8
                 .anchorBtn__body
                   p Autoridades Judiciales ante las cuales se puede presentar la acción de tutela
-
-                    
-
-
     #1.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
@@ -176,9 +150,7 @@
         .col-md-5.mb-5
           figure
             img(src='@/assets/tema1/img-7.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
-         
           p(data-aos="fade-left") La Constitución Política de Colombia en su Artículo 23 ha concedido a toda persona natural o jurídica, ciudadanos colombianos o extranjeros, la facultad que tiene toda persona para presentar peticiones respetuosas ante las autoridades o entidades públicas o privadas. ya sea por motivos de interés general o particular. 
           p(data-aos="fade-left") Un derecho de petición sirve para:
           ul.lista-ul--color.fa-ul2
@@ -196,10 +168,7 @@
               p Quejarse sobre el servidor o funcionario que lo atendió. 
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
-              p.mb-0 Sugerir mejor calidad en el servicio. 
-
-
-
+              p.mb-0 Sugerir mejor calidad en el servicio.
     #2.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
@@ -209,14 +178,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
       .row
         .col-md-5
           figure.mb-3
             img(src='@/assets/tema1/img-8.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
-          
           p(data-aos="fade-left") Existen entidades públicas y privadas que asesoran la presentación de peticiones: 
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
@@ -231,10 +197,7 @@
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-0 Consultorios jurídicos de las universidades.
-
-    
       p(data-aos="fade-right") Si el derecho de petición no es respondido dentro de estos plazos, el funcionario público incurre en causal de mala conducta, y permite al peticionario recurrir a la acción de tutela para exigir el amparo de sus derechos.
-
       p(data-aos="fade-right") Todas las entidades están obligadas a recibir, informar o responder su petición en los siguientes plazos: 
       .row
         .col-3
@@ -248,8 +211,7 @@
             img(src='@/assets/tema1/img-9-3.svg', alt='Imágen decorativa')
         .col-3
           figure
-            img(src='@/assets/tema1/img-9-4.svg', alt='Imágen decorativa')                                    
-               
+            img(src='@/assets/tema1/img-9-4.svg', alt='Imágen decorativa')
     #3.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
@@ -259,14 +221,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
       .row
         .col-md-5.mb-3
           figure
             img(src='@/assets/tema1/img-10.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
-          
           ol.lista-ol--cuadro
             li(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
@@ -300,7 +259,6 @@
               .lista-ol--cuadro__vineta.fms
                 span h
               | Pruebas o documentos que soporten la petición (anexos).
-
     #4.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
@@ -310,16 +268,12 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
       .row
         .col-md-5
           figure.mb-5
             img(src='@/assets/tema1/img-11.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
-          
           p(data-aos="fade-left") Procede para exigir el cumplimiento o respuesta de un derecho de petición cuando, como consecuencia de su no atención, se viola un derecho fundamental del peticionario. Por regla general, la tutela no se puede interponer para conseguir que se le dé respuesta a un derecho de petición, pero si el hecho de no atender un derecho de petición vulnera o afecta un derecho constitucional considerado fundamental, la tutela procede de forma excepcional.
-
           .cajon.color-primario.fond3.p-4.mb-4(data-aos="flip-down")
             p La acción de tutela protege derechos como: la vida, salud, seguridad social, dignidad humana, igualdad, no discriminación, consulta previa, trabajo, ambiente sano, seguridad social, libre desarrollo de la personalidad, libertad de conciencia, culto, expresión, circulación, educación, asociación, manifestarse pública y pacíficamente, derechos de los niños, familia, debido proceso, entre otros.
             p.mb-0
@@ -335,14 +289,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
       .row
         .col-md-5
           figure.mb-5
             img(src='@/assets/tema1/img-12.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
-          
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
@@ -362,12 +313,10 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
       .row
         .col-md-5
           figure.mb-5
             img(src='@/assets/tema1/img-13.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
           h3 Requisitos mínimos de una acción de tutela
           ul.lista-ul--color.fa-ul2
@@ -395,12 +344,10 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
       .row
         .col-md-5
           figure.mb-5
             img(src='@/assets/tema1/img-14.svg', alt='Imágen decorativa')
-               
         .col-md-7.mb-4.mb-md-0
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
@@ -427,110 +374,80 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      
-      .row.mb-5
-        .col-md-6.d-flex
-          .crd_01.mb-sm-5(data-aos="flip-up")
+      .row.justify-content-center
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los jueces municipales se presenta la acción de tutela contra cualquier autoridad de orden departamental, distrital o municipal.
-               
-        .col-md-6.d-flex
-
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los jueces del circuito se interpone la acción de tutela contra cualquier autoridad del orden nacional.
-
-
-      .crd_01.mb-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Superiores de Distrito Judicial o los Tribunales Administrativos se instauran las acciones de tutela contra las actuaciones del Presidente de la República, Contralor General de la República, Procurador General de la Nación, Fiscal General de la Nación, Registrador Nacional del Estado Civil, Defensor del Pueblo, Auditor General de la República, Contador General de la Nación y Consejo Nacional Electoral.
-
-      .row.mb-5
-        .col-md-6.d-flex
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante la Corte Suprema de Justicia o el Consejo de Estado se promueven las acciones contra el Consejo Superior de la Judicatura y la Comisión Nacional de Disciplina Judicial.
-               
-        .col-md-6.d-flex
-
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante el Superior Funcional de la autoridad judicial donde intervienen se presenta la acción de tutela contra los Fiscales o los Procuradores.
-
-
-      .row.mb-5
-        .col-md-6.d-flex
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Superiores de Distrito Judicial o Sala Disciplinaria del Consejo Seccional de la Judicatura se interpone la acción de tutela contra Fiscales que intervienen ante Tribunales o Altas Cortes.
-               
-        .col-md-6.d-flex
-
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Administrativos o la Sala Disciplinaria del Consejo Seccional de la Judicatura se promueve la acción de tutela contra Procuradores que intervienen ante Tribunales o Altas Cortes.
-      .row.mb-5
-        .col-md-6.d-flex
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante el superior funcional de la autoridad accionada se presenta la acción de tutela contra los Jueces o Tribunales.
-               
-        .col-md-6.d-flex
-
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante los Tribunales Superiores de Distrito Judicial se presenta la acción de tutela contra los Consejos Seccionales de la Judicatura y las Comisiones Seccionales de Disciplina Judicial. Asimismo, conocerán de las acciones de tutela contra las autoridades administrativas que ejerzan funciones jurisdiccionales.
-
-      .row.mb-5
-        .col-md-6.d-flex
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante la Corte Suprema de Justicia o el Consejo de Estado se interpone la acción de tutela contra estas entidades respectivamente. Su reparto será ante la misma Corporación y se resolverá por la Sala de Casación, Sección o Subsección que corresponda.
-               
-        .col-md-6.d-flex
-          .crd_01.mb-sm-5(data-aos="flip-up")
+        .col-lg-6.mb-3
+          .crd_01(data-aos="flip-up")
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt='Imágen decorativa').class          
             .crd_01__txt
               p Ante la autoridad judicial que conozca del recurso extraordinario de anulación se promueve la acción de tutela contra los Tribunales de Arbitramento.
 
-
-
-
-
-
-
-
-
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
