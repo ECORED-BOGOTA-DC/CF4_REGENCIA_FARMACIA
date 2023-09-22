@@ -123,7 +123,7 @@
       img.img-c.aab(src="@/assets/tema3/img-5-.svg", alt='Imágen decorativa')          
     br
     .h3.text-center.mb-5(data-aos="fade-right") Participación ciudadana en salud
-    figure.mb-5(data-aos="fade-left")
+    figure(data-aos="fade-left")
         img.img-c.aab(src="@/assets/tema3/img-6.svg", alt='Imagen que contiene un esquema de los mecanismos de participación ciudadana, los cuales son:<br>Ciudadana:<br>Derecho de petición<br>Acción de tutela<br>Acción de cumplimiento<br>Acción popular<br>Acción de grupo<br>Habeas corpus<br>Voto popular<br>Plebiscito<br>Referendo<br>Revocatoria del mandato<br>Iniciativa popular<br>Consulta popular<br>Comunitaria:<br>Copacos<br>Veedurías en salud<br>Asociación o Liga de usuarios<br>Comité de ética hospitalaria')
 
 </template>

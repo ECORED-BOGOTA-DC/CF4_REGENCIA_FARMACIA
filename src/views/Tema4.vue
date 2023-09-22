@@ -13,8 +13,8 @@
           p.mb-0 “Todos podemos ser, en alguna circunstancia, vulnerables y, en consecuencia, ser sujetos de especial protección por condiciones de debilidad manifiesta o por la posición de indefensión dependiendo de la situación”. #[b Artículo 13 de la Constitución Política.]
     p.mb-5(data-aos="fade-left") En marzo 14 de 2008 la Corte Constitucional reconoció como sujetos de especial protección a quienes se encontraban por razones históricas y culturales en condiciones menos favorables para el ejercicio efectivo de sus derechos físicos, psicológicos o sociales, quienes merecen una ayuda reforzada, con el ánimo de lograr una igualdad en los servicios de salud, real y efectiva. Lo que obliga a todas las instituciones de salud públicas o privadas a brindar un tratamiento preferencial en términos de acceso. Por lo anterior, se ha establecido entre los grupos de especial protección a:
     .row.justify-content-center(data-aos="zoom-in-up")
-      .col-10
-        .row.mb-5.fond4
+      .col-lg-10
+        .row.fond4
           .col-12.p-4.p-lg-5
             .row.align-items-center
               .col-lg-5

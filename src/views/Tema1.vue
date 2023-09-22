@@ -147,10 +147,10 @@
             a(href="#base")
               .fas.fa-chevron-up
       .row
-        .col-md-5.mb-5
+        .col-lg-5.mb-4.mb-lg-0
           figure
-            img(src='@/assets/tema1/img-7.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+            img(src='@/assets/tema1/img-7.svg', alt='Imágen decorativa' style="width:350px").m-auto
+        .col-lg-7
           p(data-aos="fade-left") La Constitución Política de Colombia en su Artículo 23 ha concedido a toda persona natural o jurídica, ciudadanos colombianos o extranjeros, la facultad que tiene toda persona para presentar peticiones respetuosas ante las autoridades o entidades públicas o privadas. ya sea por motivos de interés general o particular. 
           p(data-aos="fade-left") Un derecho de petición sirve para:
           ul.lista-ul--color.fa-ul2
@@ -165,7 +165,7 @@
               p.mb-0 Reclamar sobre un servicio recibido.
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
-              p Quejarse sobre el servidor o funcionario que lo atendió. 
+              p.mb-0 Quejarse sobre el servidor o funcionario que lo atendió. 
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p.mb-0 Sugerir mejor calidad en el servicio.
@@ -178,11 +178,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      .row
-        .col-md-5
-          figure.mb-3
-            img(src='@/assets/tema1/img-8.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+      .row.align-items-center
+        .col-lg-5.mb-4
+          figure
+            img(src='@/assets/tema1/img-8.svg', alt='Imágen decorativa' style="width:350px").m-auto
+        .col-lg-7
           p(data-aos="fade-left") Existen entidades públicas y privadas que asesoran la presentación de peticiones: 
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
@@ -221,41 +221,41 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      .row
-        .col-md-5.mb-3
+      .row.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
           figure
-            img(src='@/assets/tema1/img-10.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+            img(src='@/assets/tema1/img-10.svg', alt='Imágen decorativa' style="width:350px").m-auto
+        .col-lg-7
           ol.lista-ol--cuadro
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span a
               | La entidad o persona a quien va dirigida la petición.
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span b
               | El nombre completo de la persona que presenta la petición. 
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span c
               | El número de cédula, tarjeta de identidad o pasaporte de quien presenta la petición.
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span d
               | La explicación clara de lo que pide, solicita o necesita (queja clara y concreta).
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span e
               | Los motivos o razones por los cuales realiza la petición. 
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span f
               | Firma del peticionario.
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span g
               | Una dirección física o un correo electrónico en donde se desea recibir la respuesta.
-            li(data-aos="fade-up") 
+            li.d-flex(data-aos="fade-up") 
               .lista-ol--cuadro__vineta.fms
                 span h
               | Pruebas o documentos que soporten la petición (anexos).
@@ -268,11 +268,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      .row
-        .col-md-5
-          figure.mb-5
-            img(src='@/assets/tema1/img-11.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+      .row.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/tema1/img-11.svg', alt='Imágen decorativa' style="width:350px").m-auto
+        .col-lg-7
           p(data-aos="fade-left") Procede para exigir el cumplimiento o respuesta de un derecho de petición cuando, como consecuencia de su no atención, se viola un derecho fundamental del peticionario. Por regla general, la tutela no se puede interponer para conseguir que se le dé respuesta a un derecho de petición, pero si el hecho de no atender un derecho de petición vulnera o afecta un derecho constitucional considerado fundamental, la tutela procede de forma excepcional.
           .cajon.color-primario.fond3.p-4.mb-4(data-aos="flip-down")
             p La acción de tutela protege derechos como: la vida, salud, seguridad social, dignidad humana, igualdad, no discriminación, consulta previa, trabajo, ambiente sano, seguridad social, libre desarrollo de la personalidad, libertad de conciencia, culto, expresión, circulación, educación, asociación, manifestarse pública y pacíficamente, derechos de los niños, familia, debido proceso, entre otros.
@@ -289,11 +289,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      .row
-        .col-md-5
-          figure.mb-5
-            img(src='@/assets/tema1/img-12.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+      .row.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/tema1/img-12.svg', alt='Imágen decorativa' style="width:350px").m-auto
+        .col-lg-7
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
@@ -313,11 +313,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      .row
-        .col-md-5
-          figure.mb-5
-            img(src='@/assets/tema1/img-13.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+      .row.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/tema1/img-13.svg', alt='Imágen decorativa' style="width:300px").m-auto
+        .col-lg-7
           h3 Requisitos mínimos de una acción de tutela
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
@@ -344,11 +344,11 @@
           .anchorHeader__btn
             a(href="#base")
               .fas.fa-chevron-up
-      .row
-        .col-md-5
-          figure.mb-5
-            img(src='@/assets/tema1/img-14.svg', alt='Imágen decorativa')
-        .col-md-7.mb-4.mb-md-0
+      .row.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/tema1/img-14.svg', alt='Imágen decorativa' style="width:350px").m-auto
+        .col-lg-7
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
@@ -365,7 +365,7 @@
             li(data-aos="fade-up") 
               i.ii.fas.fa-atom
               p El Defensor del Pueblo, los Personeros Distritales o Municipales y la Procuraduría General de la Nación pueden presentar acciones de tutela para la defensa de los derechos fundamentales de las personas que lo requieran.
-    #8.row.fond-1.p-5.mb-5
+    #8.row.fond-1.p-5
       .anchorHeader
         .anchorHeader__number
           h3 8

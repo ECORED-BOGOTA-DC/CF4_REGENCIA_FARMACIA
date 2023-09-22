@@ -9,13 +9,13 @@
     p.mb-4(data-aos="fade-right") El modelo de #[strong Atención integral centrada en la persona] representa un cambio cultural en todas las organizaciones de salud; es dar un giro de 180° en el concepto de #[strong curar] las enfermedades, por #[strong promover] la salud, robusteciendo en el individuo y la comunidad sus capacidades, fortalezas y habilidades.
     p.mb-5(data-aos="fade-left") El sistema de salud requiere un nuevo direccionamiento, concebir los elementos básicos de la relación de asistencia – servicio para favorecer el bienestar de las personas y/o comunidades, con el fin de garantizar calidad de vida, desde la premisa que lo más importante no es atender las enfermedades y minimizar  las discapacidades, por cuanto es fundamental gestionar el mantenimiento de las capacidades y fortalezas de las personas, para que desarrollen actividades de promoción de la salud, realmente satisfactorias. Por ello, se requiere:
      .row.justify-content-around.mb-5
-      .row.col-11.justify-content-around
-        .col-lg-5.fond4.p-5.mb-3.mx-0(data-aos="flip-left")
+      .row.col-lg-11.justify-content-around
+        .col-lg-5.fond4.p-5.mb-4.mb-lg-0(data-aos="flip-left")
           figure.mb-5
             img.img-c.img-120(src="@/assets/tema5/img-1.svg", alt='Imágen decorativa')
           h3.text-center El proceso de humanización de los servicios asistenciales
           p.text-center Es parte fundamental de la calidad del servicio que se presta; cuando una persona se enferma su dignidad se encuentra temporalmente amenazada; enfermar hace que las personas se sientan más vulnerables y frágiles, por lo que resulta crucial la actitud del talento humano en salud, dispuestos a respetar a las personas y su dignidad; humanizar la salud es promover la dignidad inherente a todo ser humano.
-        .col-lg-5.fond5-.p-5.mb-3.mx-0(data-aos="flip-right")
+        .col-lg-5.fond5-.p-5(data-aos="flip-right")
           figure.mb-5
             img.img-c.img-120(src="@/assets/tema5/img-2.svg", alt='Imágen decorativa')
           h3.text-center La verdadera empatía significa 
@@ -69,7 +69,7 @@
               .h5.mb-2 Impacto de la humanización de la salud
               p Incluye cambiar el ADN de todo el sistema de salud, revisar todos los procesos, reenfocar las necesidades individuales, eliminar procesos y acciones que no tienen valor y mejorar la comunicación entre todos los relacionados.
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5            
-    .row.justify-content-around.mb-5
+    .row.justify-content-around.mb-4
       p(data-aos="fade-right") En general, la persona enferma y usuaria de servicios de salud valora la rapidez de la atención personalizada, la competencia técnica profesional, la información clara y sencilla que se le proporciona sobre la enfermedad y sobre los procesos de diagnóstico y terapéuticos. 
       p(data-aos="fade-left") La dignidad se refiere al mérito y al valor inherente al ser humano, y está estrechamente vinculada con el respeto, el reconocimiento y la consideración, la autoestima y la autonomía personal, es decir, con la capacidad de tomar decisiones propias. Poder vivir -y morir- con dignidad emana del respeto a los derechos fundamentales, y supone que todas las personas como individuos y como parte de sus respectivas comunidades, tienen derecho a ser tratadas con justicia, amor, compasión y respeto.
       p(data-aos="fade-right") Finalmente, conozca los beneficios de la humanización de los servicios de salud:
