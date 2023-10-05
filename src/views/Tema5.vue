@@ -14,13 +14,13 @@
           figure.mb-5
             img.img-c.img-120(src="@/assets/tema5/img-1.svg", alt='Imágen decorativa')
           h3.text-center El proceso de humanización de los servicios asistenciales
-          p.text-center Es parte fundamental de la calidad del servicio que se presta; cuando una persona se enferma su dignidad se encuentra temporalmente amenazada; enfermar hace que las personas se sientan más vulnerables y frágiles, por lo que resulta crucial la actitud del talento humano en salud, dispuestos a respetar a las personas y su dignidad; humanizar la salud es promover la dignidad inherente a todo ser humano.
+          p.text-center Es parte fundamental de la calidad del servicio que se presta; cuando una persona se enferma, su dignidad se encuentra temporalmente amenazada; enfermar hace que las personas se sientan más vulnerables y frágiles, por lo que resulta crucial la actitud del talento humano en salud, dispuestos a respetar a las personas y su dignidad; humanizar la salud es promover la dignidad inherente a todo ser humano.
         .col-lg-5.fond5-.p-5(data-aos="flip-right")
           figure.mb-5
             img.img-c.img-120(src="@/assets/tema5/img-2.svg", alt='Imágen decorativa')
           h3.text-center La verdadera empatía significa 
-          p.text-center Mirar, hablar, sonreír, mostrar calidez, escuchar, manifestar sensibilidad y comprensión ante la situación del otro es un compromiso activo y una responsabilidad; humanizar la realidad del otro, las relaciones, las conductas y el entorno, especialmente cuando se toma conciencia de la vulnerabilidad ajena y de la necesidad de ayuda a los pacientes.
-    p.mb-5(data-aos="fade-right") Desde hace unos 15 años en diferentes instituciones de salud se han venido desarrollando distintas propuestas encaminadas a mejorar la humanización de la atención sanitaria y la calidad percibida, mediante la elaboración de programas con propuestas como la “Humanización de la asistencia” con objetivos muy puntuales:
+          p.text-center Mirar, hablar, sonreír, mostrar calidez, escuchar, manifestar sensibilidad y comprensión ante la situación del otro, es un compromiso activo y una responsabilidad; humanizar la realidad del otro, las relaciones, las conductas y el entorno, especialmente cuando se toma conciencia de la vulnerabilidad ajena y de la necesidad de ayuda a los pacientes.
+    p.mb-5(data-aos="fade-right") Desde hace unos 15 años, en diferentes instituciones de salud se han venido desarrollando distintas propuestas encaminadas a mejorar la humanización de la atención sanitaria y la calidad percibida, mediante la elaboración de programas con propuestas como la “Humanización de la asistencia” con objetivos muy puntuales:
   .container.tarjeta.tarjeta--blanca.fond6
     .row.justify-content-around
       .row.col-10.justify-content-around.px-5

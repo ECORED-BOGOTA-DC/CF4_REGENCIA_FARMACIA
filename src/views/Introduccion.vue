@@ -7,7 +7,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p(data-aos="fade-right") En el área de la salud las preocupaciones sobre el aseguramiento de la calidad se desprenden de la responsabilidad de sus profesionales, para detectar lo mejor para sus pacientes (principio de calidad). También hay que tener en cuenta que las inquietudes por la calidad se asocian con la minimización de no tener las determinaciones correspondientes con respecto al servicio, y que no son necesarias en los procedimientos de diagnóstico, terapias y asistencia.
+    p(data-aos="fade-right") En el área de la salud, las preocupaciones sobre el aseguramiento de la calidad se desprenden de la responsabilidad de sus profesionales, para detectar lo mejor para sus pacientes (principio de calidad). También hay que tener en cuenta que las inquietudes por la calidad se asocian con la minimización de no tener las determinaciones correspondientes con respecto al servicio, y que no son necesarias en los procedimientos de diagnóstico, terapias y asistencia.
     p(data-aos="fade-left").mb-5 Normalmente, en el sector de la salud, la calidad se define basada en los criterios que se exponen a continuación:
     .row.justify-content-center.mb-5(data-aos="zoom-in-up")
       .col-lg-10.fond-1

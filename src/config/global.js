@@ -218,7 +218,7 @@ export default {
         'Control Social a la Gestión Pública. (s.f.). <i>Documento orientador de la Ley 850 de 2003.</i> Red Institucional de Apoyo a las Veedurías Ciudadanas.',
       tipo: 'Documento',
       link:
-        'https://www.procuraduria.gov.co/portal/media/file/DocLey850_web.pdf',
+        'https://www.lacalera-cundinamarca.gov.co/NuestraAlcaldia/Personera/Ley%20850%20de%202003%20Veedurias%20Ciudadanas.pdf',
     },
     {
       tema: 'Ley de participación ciudadana',
@@ -250,7 +250,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },

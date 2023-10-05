@@ -151,7 +151,7 @@
           figure
             img(src='@/assets/tema1/img-7.svg', alt='Imágen decorativa' style="width:350px").m-auto
         .col-lg-7
-          p(data-aos="fade-left") La Constitución Política de Colombia en su Artículo 23 ha concedido a toda persona natural o jurídica, ciudadanos colombianos o extranjeros, la facultad que tiene toda persona para presentar peticiones respetuosas ante las autoridades o entidades públicas o privadas. ya sea por motivos de interés general o particular. 
+          p(data-aos="fade-left") La Constitución Política de Colombia en su Artículo 23 ha concedido a toda persona natural o jurídica, ciudadanos colombianos o extranjeros, la facultad que tiene toda persona para presentar peticiones respetuosas ante las autoridades o entidades públicas o privadas, ya sea por motivos de interés general o particular. 
           p(data-aos="fade-left") Un derecho de petición sirve para:
           ul.lista-ul--color.fa-ul2
             li(data-aos="fade-up") 

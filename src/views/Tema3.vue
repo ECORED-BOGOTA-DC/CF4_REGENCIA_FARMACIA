@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Ley de participación ciudadana
-    p.mb-5(data-aos="fade-right") Con la Resolución 2063 de 2017 el Ministerio de Salud y Protección Social adoptó la Política de Participación en Salud del PPSS, que tiene como objetivo involucrar a la comunidad en la organización, gestión y supervisión del sistema de salud en general. La coordinación y asistencia técnica del PSPP está liderada por el Territorial de Salud de la Oficina de Gestión Territorial, Emergencias y Desastres, y por las autoridades locales que inician la gestión de estos procesos. También están encargados de fomentar la participación ciudadana en las actividades de difusión, promoción y garantía de los derechos humanos.
+    p.mb-5(data-aos="fade-right") Con la Resolución 2063 de 2017, el Ministerio de Salud y Protección Social adoptó la Política de Participación en Salud del PPSS, que tiene como objetivo involucrar a la comunidad en la organización, gestión y supervisión del sistema de salud en general. La coordinación y asistencia técnica del PSPP está liderada por el Territorial de Salud de la Oficina de Gestión Territorial, Emergencias y Desastres, y por las autoridades locales que inician la gestión de estos procesos. También están encargados de fomentar la participación ciudadana en las actividades de difusión, promoción y garantía de los derechos humanos.
     h3(data-aos="fade-left").mb-4 La Ley de participación ciudadana se apunta bajo tres pilares fundamentales:
     .row.justify-content-around.align-items-center 
       .col-12.col-lg-auto.justify-content-md-center.mb-5 
@@ -121,8 +121,8 @@
             p.mb-0.lii Impulsar las veedurías como un mecanismo de educación para la participación.
     figure.mb-5(data-aos="fade-left")
       img.img-c.aab(src="@/assets/tema3/img-5-.svg", alt='Imágen decorativa')          
-    br
-    .h3.text-center.mb-5(data-aos="fade-right") Participación ciudadana en salud
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+      p.mb-0 #[b Figura 1.] Participación ciudadana en salud
     figure(data-aos="fade-left")
         img.img-c.aab(src="@/assets/tema3/img-6.svg", alt='Imagen que contiene un esquema de los mecanismos de participación ciudadana, los cuales son:<br>Ciudadana:<br>Derecho de petición<br>Acción de tutela<br>Acción de cumplimiento<br>Acción popular<br>Acción de grupo<br>Habeas corpus<br>Voto popular<br>Plebiscito<br>Referendo<br>Revocatoria del mandato<br>Iniciativa popular<br>Consulta popular<br>Comunitaria:<br>Copacos<br>Veedurías en salud<br>Asociación o Liga de usuarios<br>Comité de ética hospitalaria')
 
